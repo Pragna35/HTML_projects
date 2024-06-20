@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form exercise</title>
+
+    <style>
+        .social-icon {
+            Width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+        #body {
+            background-color: #f2f6ff;
+            margin: 0;
+        }
+
+        #heading {
+            font-size: 34px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+        }
+
+        #form {
+            width: 700px;
+            background-color: white;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+
+
+
+        }
+
+        #icon-container {
+            background-color: #f2f6ff;
+            padding: 24px;
+        }
+
+        .input-fields {
+
+            font-size: 18px;
+            padding-top: 14px;
+            padding-bottom: 20px;
+
+            margin-bottom: 45px;
+            /* border-top: 0;
+            border-right: 0;
+            border-left: 0; */
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+
+        }
+
+        #input-container {
+
+            padding-top: 80px;
+            padding-right: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+        }
+
+        #button {
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            border: none;
+            color: white;
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+    <form id="form">
+
+        <h1 id="heading">Register</h1>
+
+        <div id="icon-container">
+            <img class="social-icon" src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google">
+            <img class="social-icon"
+                src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png"
+                alt="facebook">
+            <img class="social-icon" src="https://www.svgrepo.com/show/360450/github.svg" alt="Github">
+            <img class="social-icon"
+                src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png"
+                alt="linkedin">
+        </div>
+        <div id="input-container">
+
+            <input class="input-fields" type="text" id="username" placeholder="Username"><br>
+
+            <input class="input-fields" type="email" id="mail" placeholder="Email"><br>
+
+            <input class="input-fields" type="password" id="pwd" placeholder="Password"><br>
+
+            <input class="input-fields" type="password" id="confirmpwd" placeholder="Confirm Password">
+
+        </div>
+        <button id="button">Register</button>
+    </form>
+</body>
+
+</html>
